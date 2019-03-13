@@ -53,12 +53,12 @@ it __PICasso.__
 Purpose of this version is seeing how easily can I use 877A's pins with the board above.
 
 ```
-* PIC16F877A
-* 7805
-* 1K & 220
-* LED
-* 4MHz crystal osc.
-* 2 x 22pF
+● PIC16F877A
+● 7805
+● 1K & 220
+● LED
+● 4MHz crystal osc.
+● 2 x 22pF
 ```
 
 # v0.2
