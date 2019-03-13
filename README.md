@@ -13,3 +13,10 @@ desired PIC's datasheet is not practical for situations that needs quick actions
 In addition to that there is platforms like [Arduino](https://www.arduino.cc), so PIC is not preferable
 except embedded applications.
 Therefore, idea behind this project is creating a development board/prototyping platform using PIC.
+
+# How?
+
+[Sprut](https://www.sprut.de) is a project that aims to produce PIC programmer hardware with 
+serial, parallel and USB techniques. 
+(see [Brenner](http://www.sprut.de/electronic/pic/brenner/index.htm))
+_Sprut Brenner_ is a preferred and common programmer board for universal PIC applications.
