@@ -24,7 +24,7 @@ _Sprut Brenner_ is a preferred and common programmer board for universal PIC app
 
 _Brenner board that I was using:_
 
-![sprut brenner](https://user-images.githubusercontent.com/24392180/54276961-3f8b9000-4597-11e9-94ae-8fc16ef351ef.jpg)
+![sprut brenner](https://raw.githubusercontent.com/KeyLo99/Picasso/master/img/brenner.jpg)
 
 There is a 40 pin programmer on board for supporting most of the PIC's. The board itself uses PIC18F2550
 (see [datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/39632e.pdf)) for communication
@@ -135,7 +135,7 @@ after US-Burn detected the PIC.
 
 * Start the US-Burn software. It will redirect you to firmware update section if everything goes right for you.
 
-![firmware_update](https://user-images.githubusercontent.com/24392180/54313415-f9a7e980-45e1-11e9-86b2-b19d7f1d895b.jpg)
+![firmware_update](https://raw.githubusercontent.com/KeyLo99/Picasso/master/img/firmware_update.jpg)
 
 * Select the [b8_fw16.hex](https://github.com/KeyLo99/Picasso/blob/master/firmware/b8_fw16.hex) and upload new firmware.
 
