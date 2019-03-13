@@ -166,11 +166,11 @@ Some circuit updates were made with this version.
 
 * Circuit Part List
 
-_Same components with v0.5_
+_Same components with v0.2_
 
 * Instructions
 
-_Same installation/configuration procedure with v0.5_
+_Same installation/configuration procedure with v0.2_
 
 # v1.0
 
@@ -184,7 +184,6 @@ Circuit board improved and new featured added with this version.
 
 ![v1 0_2](https://user-images.githubusercontent.com/24392180/54317503-03364f00-45ec-11e9-99cd-4b03b22ee260.jpg)
 
- 
 * PCB
 
 ![picasso_pcb_v1.0](https://user-images.githubusercontent.com/24392180/54319387-1ea45880-45f2-11e9-8f89-42084c81c0ed.jpg)
@@ -192,4 +191,5 @@ Circuit board improved and new featured added with this version.
 [EAGLE Project](https://github.com/KeyLo99/Picasso/blob/master/pcb/v1.0/picasso.brd) | 
 [PCB](https://github.com/KeyLo99/Picasso/blob/master/pcb/v1.0/picasso_pcb.pdf) 
 
+_Components and instructions are same with v0.5_
 
