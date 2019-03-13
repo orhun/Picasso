@@ -121,7 +121,7 @@ SV1      ICSP                  BL 1X10G 2,54
 X2       USB-B-H               USB BW
 JP1      Jumper                Jumper 2,54 RT
 ```
-[Brenner Circuit](https://github.com/KeyLo99/Picasso/blob/master/img/b8p5.png) and 
+[Brenner Circuit](https://github.com/KeyLo99/Picasso/blob/master/img/b8p5.jpg) and 
 [b8p5_partlist.txt](https://github.com/KeyLo99/Picasso/blob/master/doc/b8p5_partlist.txt) might be helpful.
 
 * After preparing the circuit, there is not much left to do. We have to flash the bootloader and firmware to 
@@ -145,3 +145,14 @@ So see [b8_calibration_en.pdf](https://github.com/KeyLo99/Picasso/blob/master/do
 * Finally put PIC16F877A in place and you are ready to go. You can flash your program into PIC and use it's pins
 easily just by connecting the USB.
 
+# v0.5
+
+![v0.5](https://user-images.githubusercontent.com/24392180/54314484-7b991200-45e4-11e9-8b20-fc31baa301ea.jpg)
+
+Some circuit updates were made with this version.
+* PIC16F877A placed horizontally.
+* All pins gathered in one place. Required labels added.
+
+![v0.5_pins](https://user-images.githubusercontent.com/24392180/54314863-6e305780-45e5-11e9-8e1f-d312eaf3f568.jpg)
+
+![v0.5_2](https://user-images.githubusercontent.com/24392180/54314485-7cca3f00-45e4-11e9-850b-af21a4a74c54.jpg)
