@@ -44,3 +44,15 @@ Basically if we replace the 40 pin programmer with 877A (or another PIC), put pi
 write a custom IDE with flashing features, we will have a 5V - 20MHz 877A-based development card. I'd like to call
 it __PICasso.__
 
+# v0.1
+
+![v0 1](https://user-images.githubusercontent.com/24392180/54276419-fc7ced00-4595-11e9-8f1d-a17fbb2f0e0d.jpg)
+
+Purpose of this version is seeing how easily can I use 877A's pins with this board.
+
+* PIC16F877A
+* 7805
+* 1K & 220
+* LED
+* 4MHz crystal osc.
+* 2 x 22pF
