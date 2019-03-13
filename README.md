@@ -22,6 +22,7 @@ serial, parallel and USB techniques.
 _Sprut Brenner_ is a preferred and common programmer board for universal PIC applications.
 
 _Brenner board that I was using:_
+
 ![sprut brenner](https://user-images.githubusercontent.com/24392180/54276961-3f8b9000-4597-11e9-94ae-8fc16ef351ef.jpg)
 
 There is a 40 pin programmer on board for supporting most of the PIC's. The board itself uses PIC18F2550
