@@ -168,3 +168,7 @@ Some circuit updates were made with this version.
 * Circuit Part List
 
 _Same components with v0.5_
+
+* Instructions
+
+_Same installation/configuration procedure with v0.5_
