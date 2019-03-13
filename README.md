@@ -187,5 +187,9 @@ Circuit board improved and new featured added with this version.
  
 * PCB
 
+![picasso_pcb_v1.0](https://user-images.githubusercontent.com/24392180/54319387-1ea45880-45f2-11e9-8f89-42084c81c0ed.jpg)
+
+[EAGLE Project](https://github.com/KeyLo99/Picasso/blob/master/pcb/v1.0/picasso.brd) | 
+[PCB](https://github.com/KeyLo99/Picasso/blob/master/pcb/v1.0/picasso_pcb.pdf) 
 
 
