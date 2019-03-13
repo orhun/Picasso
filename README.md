@@ -33,3 +33,14 @@ which is used frequently on PIC domain. (It has 256 bytes of EEPROM, 2 PWM 10-bi
 This features of 877A was the main reason for my decision to use this microcontroller in this project.
 
 ![pic16f877a](https://user-images.githubusercontent.com/24392180/54274848-db1a0200-4591-11e9-8033-a9964c01a569.jpg)
+
+In order to load your program to PIC (which is called _flashing hex file_) you have use a software called _US-Burn_.
+US-Burn also supports various features such as flashing bootloaders, changing PIC configurations and disassembler.
+It has Windows and Linux support.
+
+![usburn](https://user-images.githubusercontent.com/24392180/54276031-e589cb00-4594-11e9-891a-142a71bb611a.jpg)
+
+Basically if we replace the 40 pin programmer with 877A (or another PIC), put pins in order (like Arduino) and 
+write a custom IDE with flashing features, we will have a 5V - 20MHz 877A-based development card. I'd like to call
+it __PICasso.__
+
