@@ -126,5 +126,14 @@ JP1      Jumper                Jumper 2,54 RT
 * After preparing the circuit, there is not much left to do. We have to flash the bootloader and firmware to 
 PIC18F2550 to use the board with US-Burn software.  
 **To achieve this, a PIC programmer is required due to the need of bootloader flashing.**  
-Flash the [boot_0_20mhz.hex]() to the 18F2550 after US-Burn detected the PIC.
 
+* Flash the [boot_0_20mhz.hex](https://github.com/KeyLo99/Picasso/blob/master/bootloader/boot_0_20mhz.hex) to the 18F2550 
+after US-Burn detected the PIC.
+  
+* After flashing the bootloader, put 18F2550 in your circuit and connect it's USB to your computer. Make sure everything is working with USB and circuit. (_Check if any smoke coming out_)  
+
+* Start the US-Burn software. It will redirect you to firmware update section if everything goes right for you.
+
+![firmware_update](https://user-images.githubusercontent.com/24392180/54313415-f9a7e980-45e1-11e9-86b2-b19d7f1d895b.jpg)
+
+* Select the 
