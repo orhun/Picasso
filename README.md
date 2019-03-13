@@ -193,3 +193,12 @@ Circuit board improved and new featured added with this version.
 
 _Components and instructions are same with v0.5_
 
+# Missing Features
+
+* There is no custom IDE or flashing software for Picasso. (_yet?_) So you have to use a third-party software
+like MikroC to compile your code (create hex) & flash to PIC.
+
+* Picasso uses Sprut Brenner's sources which is an inactive project.
+
+**Demo will be added hopefully.**
+
