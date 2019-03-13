@@ -34,13 +34,13 @@ PIC16F877A (see [datasheet](http://ww1.microchip.com/downloads/en/devicedoc/3958
 which is used frequently on PIC domain. (It has 256 bytes of EEPROM, 2 PWM 10-bit, ICD etc.)
 This features of 877A was the main reason for my decision to use this microcontroller in this project.
 
-![pic16f877a](https://user-images.githubusercontent.com/24392180/54274848-db1a0200-4591-11e9-8033-a9964c01a569.jpg)
+![pic16f877a](https://raw.githubusercontent.com/KeyLo99/Picasso/master/img/pic16f877a.jpg)
 
 In order to load your program to PIC (which is called _flashing hex file_) you have use a software called _US-Burn_.
 US-Burn also supports various features such as flashing bootloaders, changing PIC configurations and disassembler.
 It has Windows and Linux support.
 
-![usburn](https://user-images.githubusercontent.com/24392180/54312778-6b7f3380-45e0-11e9-84b2-22ac431d2e2c.jpg)
+![usburn](https://raw.githubusercontent.com/KeyLo99/Picasso/master/img/usburn.jpg)
 [Get US-Burn here.](https://github.com/KeyLo99/Picasso/raw/master/usburn/usburn.zip)
 
 Basically if we replace the 40 pin programmer with 877A (or another PIC), put pins in order (like Arduino) and 
@@ -49,7 +49,7 @@ it __PICasso.__
 
 # v0.1
 
-![v0.1](https://user-images.githubusercontent.com/24392180/54276912-2387ee80-4597-11e9-9c4b-ef8fdcd504b9.jpg)
+![v0.1](https://raw.githubusercontent.com/KeyLo99/Picasso/master/img/v0.1.jpg)
 
 Purpose of this version is seeing how easily can I use 877A's pins with the board above.
 
@@ -64,7 +64,7 @@ Purpose of this version is seeing how easily can I use 877A's pins with the boar
 
 # v0.2
 
-![v0.2](https://user-images.githubusercontent.com/24392180/54277270-13bcda00-4598-11e9-9a8a-c3232da49f3c.jpg)
+![v0.2](https://raw.githubusercontent.com/KeyLo99/Picasso/master/img/v0.2.jpg)
 
 This version can be considered as the outline of the Picasso project's main idea. 
 18F2550 and 16F877A used together in this board with custom pins next to 877A due to testing our thesis.
@@ -75,7 +75,7 @@ Here is the steps that followed for preparing this board:
 
 * PCB
 
-![picasso_pcb_v0.2](https://user-images.githubusercontent.com/24392180/54310716-af236e80-45db-11e9-8861-0e1166588f44.jpg)
+![picasso_pcb_v0.2](https://raw.githubusercontent.com/KeyLo99/Picasso/master/pcb/v0.2/picasso_pcb.jpg)
 
 [EAGLE Project](https://github.com/KeyLo99/Picasso/blob/master/pcb/v0.2/picasso.brd) | 
 [PCB](https://github.com/KeyLo99/Picasso/blob/master/pcb/v0.2/picasso_pcb.pdf) 
@@ -147,19 +147,19 @@ easily just by connecting the USB.
 
 # v0.5
 
-![v0.5](https://user-images.githubusercontent.com/24392180/54314484-7b991200-45e4-11e9-8b20-fc31baa301ea.jpg)
+![v0.5](https://raw.githubusercontent.com/KeyLo99/Picasso/master/img/v0.5_1.jpg)
 
 Some circuit updates were made with this version.
 * PIC16F877A placed horizontally.
 * All pins gathered in one place. Required labels added.
 
-![v0.5_pins](https://user-images.githubusercontent.com/24392180/54314863-6e305780-45e5-11e9-8e1f-d312eaf3f568.jpg)
+![v0.5_pins](https://raw.githubusercontent.com/KeyLo99/Picasso/master/img/v0.5_3.jpg)
 
-![v0.5_2](https://user-images.githubusercontent.com/24392180/54314485-7cca3f00-45e4-11e9-850b-af21a4a74c54.jpg)
+![v0.5_2](https://raw.githubusercontent.com/KeyLo99/Picasso/master/img/v0.5_2.jpg)
 
 * PCB
 
-![picasso_pcb_v0.5](https://user-images.githubusercontent.com/24392180/54317104-febd6680-45ea-11e9-90fe-9523488cc627.jpg)
+![picasso_pcb_v0.5](https://raw.githubusercontent.com/KeyLo99/Picasso/master/pcb/v0.5/picasso_pcb.jpg)
 
 [EAGLE Project](https://github.com/KeyLo99/Picasso/blob/master/pcb/v0.5/picasso.brd) | 
 [PCB](https://github.com/KeyLo99/Picasso/blob/master/pcb/v0.5/picasso_pcb.pdf) 
@@ -174,7 +174,7 @@ _Same installation/configuration procedure with v0.2_
 
 # v1.0
 
-![v1 0_1](https://user-images.githubusercontent.com/24392180/54317502-03364f00-45ec-11e9-993d-5778a1f4558d.jpg)
+![v1.0_1](https://raw.githubusercontent.com/KeyLo99/Picasso/master/img/v1.0_1.jpg)
 
 Circuit board improved and new featured added with this version. 
 
@@ -182,11 +182,11 @@ Circuit board improved and new featured added with this version.
 * 5V input added to circuit with 7805 regulator.
 * Some component's including LEDs position changed.
 
-![v1 0_2](https://user-images.githubusercontent.com/24392180/54317503-03364f00-45ec-11e9-99cd-4b03b22ee260.jpg)
+![v1.0_2](https://raw.githubusercontent.com/KeyLo99/Picasso/master/img/v1.0_2.jpg)
 
 * PCB
 
-![picasso_pcb_v1.0](https://user-images.githubusercontent.com/24392180/54319387-1ea45880-45f2-11e9-8f89-42084c81c0ed.jpg)
+![picasso_pcb_v1.0](https://raw.githubusercontent.com/KeyLo99/Picasso/master/pcb/v1.0/picasso_pcb.jpg)
 
 [EAGLE Project](https://github.com/KeyLo99/Picasso/blob/master/pcb/v1.0/picasso.brd) | 
 [PCB](https://github.com/KeyLo99/Picasso/blob/master/pcb/v1.0/picasso_pcb.pdf) 
