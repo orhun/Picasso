@@ -125,7 +125,6 @@ JP1      Jumper                Jumper 2,54 RT
 
 * After preparing the circuit, there is not much left to do. We have to flash the bootloader and firmware to 
 PIC18F2550 to use the board with US-Burn software.  
-To achieve this, a PIC programmer is required due to the need of bootloader flashing.
-
-
+**To achieve this, a PIC programmer is required due to the need of bootloader flashing.**  
+Flash the [boot_0_20mhz.hex]() to the 18F2550 after US-Burn detected the PIC.
 
