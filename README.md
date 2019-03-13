@@ -52,13 +52,24 @@ it __PICasso.__
 
 Purpose of this version is seeing how easily can I use 877A's pins with the board above.
 
+```
 * PIC16F877A
 * 7805
 * 1K & 220
 * LED
 * 4MHz crystal osc.
 * 2 x 22pF
+```
 
 # v0.2
 
 ![v0.2](https://user-images.githubusercontent.com/24392180/54277270-13bcda00-4598-11e9-9a8a-c3232da49f3c.jpg)
+
+This version can be considered as the outline of the Picasso project's main idea. 
+18F2550 and 16F877A used together in this board with custom pins next to 877A due to testing our thesis.
+Eventually, F2550 which is responsible for USB communication can be used with another microcontroller on the
+same board and this version is open to any developments on the electronics (PCB) and the software side.
+
+Here is the steps that followed for preparing this board:
+
+* 
