@@ -142,7 +142,7 @@ after US-Burn detected the PIC.
 * Reset the programmer. In this point you might have to make some calibrations. 
 So see [b8_calibration_en.pdf](https://github.com/KeyLo99/Picasso/blob/master/doc/b8_calibration_en.pdf)
 
-* Finally put PIC16F877A in place and you are ready to go. You can flash your program into PIC and use it's pins
+* Finally put PIC16F877A in place and you are ready to go. You can flash your program (hex) into PIC and use it's pins
 easily just by connecting the USB.
 
 # v0.5
@@ -172,3 +172,17 @@ _Same components with v0.5_
 * Instructions
 
 _Same installation/configuration procedure with v0.5_
+
+# v1.0
+
+![v1 0_1](https://user-images.githubusercontent.com/24392180/54317502-03364f00-45ec-11e9-993d-5778a1f4558d.jpg)
+
+Circuit board improved and new featured added with this version. 
+
+* ICSP (_In-Circuit Serial Programming_) pins added for PIC16F877A.
+* 5V input added to circuit with 7805 regulator.
+* Some component's including LEDs position changed.
+
+![v1 0_2](https://user-images.githubusercontent.com/24392180/54317503-03364f00-45ec-11e9-99cd-4b03b22ee260.jpg)
+
+ 
