@@ -153,7 +153,6 @@ Some circuit updates were made with this version.
 * PIC16F877A placed horizontally.
 * All pins gathered in one place. Required labels added.
 
-![pins](https://user-images.githubusercontent.com/24392180/54316380-4216d580-45e9-11e9-82c5-d859a0f00323.jpg)
 ![v0.5_pins](https://user-images.githubusercontent.com/24392180/54314863-6e305780-45e5-11e9-8e1f-d312eaf3f568.jpg)
 
 ![v0.5_2](https://user-images.githubusercontent.com/24392180/54314485-7cca3f00-45e4-11e9-850b-af21a4a74c54.jpg)
@@ -186,3 +185,7 @@ Circuit board improved and new featured added with this version.
 ![v1 0_2](https://user-images.githubusercontent.com/24392180/54317503-03364f00-45ec-11e9-99cd-4b03b22ee260.jpg)
 
  
+* PCB
+
+
+
