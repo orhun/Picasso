@@ -1,0 +1,72 @@
+
+Partlist für Brenner8P R5
+
+
+Part     Value			Reichelt	Conrad
+======================================================
+
+C1       220nF                 Z5U-5 220n
+C2, C3   22p                   Kerko 22p
+C4       10µF                  rad10/100
+C5       47µF                  rad47/35
+C6, C7   1nF                   X7R-2,5 1,0n
+C8       100nF                 Z5U-5 100n
+C9       100nF                 Z5U-5 100n
+C10      100nF                 Z5U-2,5 100n
+D1, D2   BAT43                 BAT 43
+D3       BZX97-3,3             ZF 3,3
+D4       BAT43                 BAT 43
+IC1      PIC18F2550SP          PIC18F2550-I/SP
+	 28-polige IC-Fassung  GS 28P-S
+IC2      40-poliger Testsockel TEX 40
+JP1      Jumper                Jumper 2,54 RT
+L1       680µH                 SMCC 680µ
+L2       10µH                  SMCC 10µ
+LED1     grün                  LED5mm2MAgn
+LED2     gelb                  LED5mm2MAge
+LSP1     Lötstift                 
+LSP2     Lötstift                 
+LSP3     Lötstift                 
+Q1       20 MHz                20,0000-HC49U-S
+Q2, Q3   BC338-25              BC338-25
+Q4       BC328-25              BC328-25
+Q5       BC338-25              BC338-25
+Q6, Q7   BC328-25              BC328-25
+Q8       BF959                 BF959
+R1       1k                    1/4W 1K
+R2, R3   10k                   1/4W 10K  
+R4       4k7                   1/4W 4,7K
+R5       2k2                   1/4W 2,2K
+R6, R7   10k                   1/4W 10K
+R8       100k                  1/4W 100K
+R9..R11  10k                   1/4W 10K
+R12      100k                  1/4W 100K
+R13      10k                   1/4W 10K
+R14      100                   1/4W 100
+R15      1 k                   1/4W 1K
+R16      330                   1/4W 330
+R17, R18 10k                   1/4W 10K  
+R19      100                   1/4W 100
+SV1      ICSP                  BL 1X10G 2,54
+X2       USB-B-H               USB BW
+
+
+
+
+Die Buchse SV1 ist auf 5 Pins zu kürzen. Ein 2-Pin langes Stück vom Rest ist für JP1 zu verwenden.
+
+Alle Widerstands- und Kapazitätswerte sind unkritisch (25%) außer R4, R5.
+
+Es muß mindestens eine Firmware V 0.5 verwendet werden.
+
+
+
+Anstelle von Q1+C2+C3 kann auch ein 20 MHz Keramikresonator verwendet werden:
+
+Part     Value			Reichelt	Conrad
+======================================================
+Q1a      20 MHz                 -
+
+Im Dokument 
+http://www.sprut.de/electronic/pic/projekte/brenner8/brenner8.pdf
+beschreibe ich auch die Nutzung von Resonatoren mit z.B. 8 oder 12 MHz.

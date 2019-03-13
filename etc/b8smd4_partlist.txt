@@ -1,0 +1,41 @@
+
+Bestückungsliste zum Brenner8smd R4
+
+
+Part			      |	St. | Value	        | Reichelt	      | Conrad      Conrad				
+			      |	    |			| Artikel-Nr	      | Artikel-Nr  Name
+==============================|=====|===================|=====================|=================================================
+C1, C10, C11		      |	3   | 220nF		| - not available -   | 445222	    KERKO CHIP 0805 X7R 0,22µF 10% 16V G		
+C2, C3			      |	2   | 22p		| NPO-G0805 22P	      | 445432	    KERKO CHIP 0805 NP0 22pF 5% 50V G		
+C4, C5			      |	2   | 47µF		| RAD 47/35	      | 472506	    Elko 47uF/35V RM 2,5		
+C6, C7			      |	2   | 10nF		| X7R-G0805 10N	      | 445403	    KERKO CHIP 0805 X7R 0,01µF 10% 50V G		
+C8, C9			      |	2   | 100nF		| X7R-G0805 100N      | 445210	    KERKO CHIP 0805 X7R 0,1µF 10% 50V G 		
+D4, D5			      |	2   | BAT43		| BAT 43 SMD	      | 140902	    SMD-Diode LL4148		
+D6			      |	1   | BZX97-3,3	  	| SMD ZF 3,3	      | 141763	    SMD-Zehner Diode 0,5 BZV W 3,3V		
+IC1			      |	1   | PIC18F2550SP	| PIC 18F2550-I/SO    | --	    - not available -
+IC2			      |	1   | 40-pl.Testsockel  | TEX 40	      | 189324	    PRÄZISIONS TESTSOCKEL 40 POLIG		
+L1			      |	1   | 680µH		| SMCC 680µ	      | 536342	    Miniatur-Festinduktivität 680µH		
+L2			      |	1   | 10µH		| SMCC 10µ	      | 535729	    Miniatur-Festinduktivität 10µH 		
+LED1			      |	1   | grün		| LED 3MM 2MA GN      | 145971	    LowCurrent-LED, 3mm grün 		
+LED2			      |	1   | gelb		| LED 3MM 2MA GE      | 145980	    LowCurrent-LED, 3mm gelb 		
+Q1			      |	1   | 20 MHz		| 20,0-HC49U-S	      | 445206	    SMD-Quarz  HC-49/US-SMD		
+Q4, Q6, Q9		      |	3   | BC338-25	  	| BCX 70H SMD	      | 152896	    BCX 70H 		
+Q7, Q8			      |	2   | BC328-25	  	| BCX 71H SMD	      | 152950	    BCX 71H		
+R1, R15			      |	2   | 1k		| SMD 1/4W 1,0K	      | 402540	    SMD-Widerstand in Chipausführung 1207		
+R2, R3, R6, R9, R10, R11, R13 |	7   | 10k		| SMD 1/4W 10K	      | 402664	    SMD-Widerstand in Chipausführung 1207 		
+R4			      |	1   | 4k7		| SMD 1/4W 4,7K	      | 402621	    SMD-Widerstand in Chipausführung 1207		
+R5			      |	1   | 2k2		| SMD 1/4W 2,2K	      | 402583	    SMD-Widerstand in Chipausführung 1207		
+R7			      |	1   | 10k		| SMD-0805 10,0K      | 406376	    SMD-Widerstand in Chipausführung 0805		
+R8			      |	1   | 100k		| SMD-0805 100K	      | 406490	    SMD-Widerstand in Chipausführung 0805		
+R12			      |	1   | 100k		| SMD 1/4W 100K	      | 402788	    SMD-Widerstand in Chipausführung 1207		
+R14, R17, R18, R19, R20, R21  |	6   | 0		  	| SMD 1/4W 0,0	      | 402222	    SMD-Widerstand in Chipausführung 1206 		
+R16			      |	1   | 330		| SMD 1/4W 330	      | 402486	    SMD-Widerstand in Chipausführung 1207		
+SV1			      |	1   | ICSP		| BL 1X10G 2,54	      | 736350	    Buchsenleiste 20-polig		
+X2			      |	1   | USB-B-H		| USB AWF	      | 747085	    USB-Buchse ultra-flach 90°		
+JP1			      |	1   | Stiftleiste	| SL 1X36G 2,54	      | 744000	    Stiftleiste 10polig RM 2,54		
+zu JP1			      |	1   | Jumper		| JUMPER 2,54	      | 734152	    Codierbrücke schwarz			
+							
+
+
+
+Sowie drei Drahtbrücken laut Bestückungsplan

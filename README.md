@@ -76,3 +76,49 @@ Here is the steps that followed for preparing this board:
 
 ![picasso_pcb_v0.2](https://user-images.githubusercontent.com/24392180/54310716-af236e80-45db-11e9-8861-0e1166588f44.jpg)
 
+[EAGLE Project](https://github.com/KeyLo99/Picasso/blob/master/pcb/v0.2/picasso.brd) | 
+[PCB](https://github.com/KeyLo99/Picasso/blob/master/pcb/v0.2/picasso_pcb.pdf) 
+
+* Circuit Part List
+
+_Same as Sprut's Brenner except PIC16F77A, 20MHz osc., 22pF's and couple of LED's. 
+So here is the c/p part list:_
+
+```
+Part     Value			Reichelt	Conrad
+===================================================
+C1       220nF                 Z5U-2,5 220n
+C2, C3   22p                   Kerko 22p
+C4       10µF                  rad10/100
+C5       47µF                  rad47/35
+C6, C7   10nF                  X7R-2,5 10n
+C8       100nF                 Z5U-5 100n
+C9, C10  220nF                 Z5U-2,5 220n
+D1 D2    BAT43                 BAT 43
+D3       BZX97-3,3             ZF 3,3
+IC1      PIC18F2550SP          PIC18F2550-I/SP
+	 28-polige IC-Fassung  GS 28P-S
+IC2      40-poliger Testsockel TEX 40
+L1       680µH                 SMCC 680µ
+L2       10µH                  SMCC 10µ
+LED1     grün                  LED5mm2MAgn
+LED2     gelb                  LED5mm2MAge
+Q1       20 MHz                20-HC49U-S
+Q2,Q3,Q5 BC338-25              BC338-25
+Q4,Q6    BC328-25              BC328-25
+R1       1k                    1/4W 1K
+R2,R3,R6 10 k                  1/4W 10K  
+R4       4k7                   1/4W 4,7K
+R5       2k2                   1/4W 2,2K
+R7,R13   10k                   1/4W 10K
+R8,R12   100k                  1/4W 100K
+R9..R11  10k                   1/4W 10K
+R14      0 (Drahtbrücke)
+R15      1 k                   1/4W 1K
+R16      330                   1/4W 330
+SV1      ICSP                  BL 1X10G 2,54
+X2       USB-B-H               USB BW
+JP1      Jumper                Jumper 2,54 RT
+```
+
+
