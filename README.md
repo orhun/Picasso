@@ -1,4 +1,4 @@
-# Picasso
+# Picasso <a href="https://github.com/KeyLo99/Picasso/releases"><img src="https://img.shields.io/github/release/KeyLo99/Picasso.svg"/></a>
 PIC16F877A based 5V/20MHz development board and PIC programmer
 
 **[!] This is a discontinued project. [2016]**
