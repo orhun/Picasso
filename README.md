@@ -120,5 +120,12 @@ SV1      ICSP                  BL 1X10G 2,54
 X2       USB-B-H               USB BW
 JP1      Jumper                Jumper 2,54 RT
 ```
+[Brenner Circuit](https://github.com/KeyLo99/Picasso/blob/master/etc/b8p5.png) and 
+[b8p5_partlist.txt](https://github.com/KeyLo99/Picasso/blob/master/etc/b8p5_partlist.txt) might be helpful.
+
+* After preparing the circuit, there is not much left to do. We have to flash the bootloader and firmware to 
+PIC18F2550 to use the board with US-Burn software.  
+To achieve this, a PIC programmer is required due to the need of bootloader flashing.
+
 
 
