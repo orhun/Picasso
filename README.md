@@ -22,7 +22,7 @@ serial, parallel and USB techniques.
 _Sprut Brenner_ is a preferred and common programmer board for universal PIC applications.
 
 _Brenner board that I was using:_
-![sprut brenner](https://user-images.githubusercontent.com/24392180/54274226-33e89b00-4590-11e9-942c-0223aaa060f1.jpg)
+![sprut brenner](https://user-images.githubusercontent.com/24392180/54276961-3f8b9000-4597-11e9-94ae-8fc16ef351ef.jpg)
 
 There is a 40 pin programmer on board for supporting most of the PIC's. The board itself uses PIC18F2550
 (see [datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/39632e.pdf)) for communication
@@ -46,7 +46,7 @@ it __PICasso.__
 
 # v0.1
 
-![v0 1](https://user-images.githubusercontent.com/24392180/54276419-fc7ced00-4595-11e9-8f1d-a17fbb2f0e0d.jpg)
+![v0 1](https://user-images.githubusercontent.com/24392180/54276912-2387ee80-4597-11e9-9c4b-ef8fdcd504b9.jpg)
 
 Purpose of this version is seeing how easily can I use 877A's pins with this board.
 
