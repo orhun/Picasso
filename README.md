@@ -82,7 +82,7 @@ Here is the steps that followed for preparing this board:
 
 * Circuit Part List
 
-_Same as Sprut's Brenner except PIC16F77A, 20MHz osc., 22pF's and couple of LED's. 
+_Same as Sprut's Brenner except PIC16F77A, 20MHz osc., 22pF's, pins and couple of LED's. 
 So here is the c/p part list:_
 
 ```
@@ -160,3 +160,11 @@ Some circuit updates were made with this version.
 
 * PCB
 
+![picasso_pcb_v0.5](https://user-images.githubusercontent.com/24392180/54317104-febd6680-45ea-11e9-90fe-9523488cc627.jpg)
+
+[EAGLE Project](https://github.com/KeyLo99/Picasso/blob/master/pcb/v0.5/picasso.brd) | 
+[PCB](https://github.com/KeyLo99/Picasso/blob/master/pcb/v0.5/picasso_pcb.pdf) 
+
+* Circuit Part List
+
+_Same components with v0.5_
