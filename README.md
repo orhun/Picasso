@@ -157,3 +157,6 @@ Some circuit updates were made with this version.
 ![v0.5_pins](https://user-images.githubusercontent.com/24392180/54314863-6e305780-45e5-11e9-8e1f-d312eaf3f568.jpg)
 
 ![v0.5_2](https://user-images.githubusercontent.com/24392180/54314485-7cca3f00-45e4-11e9-850b-af21a4a74c54.jpg)
+
+* PCB
+
