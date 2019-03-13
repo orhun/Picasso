@@ -48,7 +48,7 @@ it __PICasso.__
 
 # v0.1
 
-![v0 1](https://user-images.githubusercontent.com/24392180/54276912-2387ee80-4597-11e9-9c4b-ef8fdcd504b9.jpg)
+![v0.1](https://user-images.githubusercontent.com/24392180/54276912-2387ee80-4597-11e9-9c4b-ef8fdcd504b9.jpg)
 
 Purpose of this version is seeing how easily can I use 877A's pins with the board above.
 
@@ -72,4 +72,7 @@ same board and this version is open to any developments on the electronics (PCB)
 
 Here is the steps that followed for preparing this board:
 
-* 
+* PCB
+
+![picasso_pcb_v0.2](https://user-images.githubusercontent.com/24392180/54310716-af236e80-45db-11e9-8861-0e1166588f44.jpg)
+
