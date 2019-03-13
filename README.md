@@ -12,6 +12,7 @@ In other words, using the appropriate PIC programmer and creating the proper cir
 desired PIC's datasheet is not practical for situations that needs quick actions like prototyping.
 In addition to that there is platforms like [Arduino](https://www.arduino.cc), so PIC is not preferable
 except embedded applications.
+
 Therefore, idea behind this project is creating a development board/prototyping platform using PIC.
 
 # How?
@@ -57,3 +58,7 @@ Purpose of this version is seeing how easily can I use 877A's pins with this boa
 * LED
 * 4MHz crystal osc.
 * 2 x 22pF
+
+# v0.2
+
+![v0.2](https://user-images.githubusercontent.com/24392180/54277270-13bcda00-4598-11e9-9a8a-c3232da49f3c.jpg)
