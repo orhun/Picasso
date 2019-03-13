@@ -136,4 +136,11 @@ after US-Burn detected the PIC.
 
 ![firmware_update](https://user-images.githubusercontent.com/24392180/54313415-f9a7e980-45e1-11e9-86b2-b19d7f1d895b.jpg)
 
-* Select the 
+* Select the [b8_fw16.hex](https://github.com/KeyLo99/Picasso/blob/master/firmware/b8_fw16.hex) and upload new firmware.
+
+* Reset the programmer. In this point you might have to make some calibrations. 
+So see [b8_calibration_en.pdf](https://github.com/KeyLo99/Picasso/blob/master/doc/b8_calibration_en.pdf)
+
+* Finally put PIC16F877A in place and you are ready to go. You can flash your program into PIC and use it's pins
+easily just by connecting the USB.
+
