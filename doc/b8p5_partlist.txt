@@ -1,5 +1,4 @@
-
-Partlist für Brenner8P R5
+Partlist fÃ¼r Brenner8P R5
 
 
 Part     Value			Reichelt	Conrad
@@ -7,8 +6,8 @@ Part     Value			Reichelt	Conrad
 
 C1       220nF                 Z5U-5 220n
 C2, C3   22p                   Kerko 22p
-C4       10µF                  rad10/100
-C5       47µF                  rad47/35
+C4       10ÂµF                  rad10/100
+C5       47ÂµF                  rad47/35
 C6, C7   1nF                   X7R-2,5 1,0n
 C8       100nF                 Z5U-5 100n
 C9       100nF                 Z5U-5 100n
@@ -20,13 +19,13 @@ IC1      PIC18F2550SP          PIC18F2550-I/SP
 	 28-polige IC-Fassung  GS 28P-S
 IC2      40-poliger Testsockel TEX 40
 JP1      Jumper                Jumper 2,54 RT
-L1       680µH                 SMCC 680µ
-L2       10µH                  SMCC 10µ
-LED1     grün                  LED5mm2MAgn
+L1       680ÂµH                 SMCC 680Âµ
+L2       10ÂµH                  SMCC 10Âµ
+LED1     grÃ¼n                  LED5mm2MAgn
 LED2     gelb                  LED5mm2MAge
-LSP1     Lötstift                 
-LSP2     Lötstift                 
-LSP3     Lötstift                 
+LSP1     LÃ¶tstift                 
+LSP2     LÃ¶tstift                 
+LSP3     LÃ¶tstift                 
 Q1       20 MHz                20,0000-HC49U-S
 Q2, Q3   BC338-25              BC338-25
 Q4       BC328-25              BC328-25
@@ -53,11 +52,11 @@ X2       USB-B-H               USB BW
 
 
 
-Die Buchse SV1 ist auf 5 Pins zu kürzen. Ein 2-Pin langes Stück vom Rest ist für JP1 zu verwenden.
+Die Buchse SV1 ist auf 5 Pins zu kÃ¼rzen. Ein 2-Pin langes StÃ¼ck vom Rest ist fÃ¼r JP1 zu verwenden.
 
-Alle Widerstands- und Kapazitätswerte sind unkritisch (25%) außer R4, R5.
+Alle Widerstands- und KapazitÃ¤tswerte sind unkritisch (25%) auÃŸer R4, R5.
 
-Es muß mindestens eine Firmware V 0.5 verwendet werden.
+Es muÃŸ mindestens eine Firmware V 0.5 verwendet werden.
 
 
 
