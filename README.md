@@ -24,3 +24,12 @@ _Sprut Brenner_ is a preferred and common programmer board for universal PIC app
 _Brenner board that I was using:_
 ![sprut brenner](https://user-images.githubusercontent.com/24392180/54274226-33e89b00-4590-11e9-942c-0223aaa060f1.jpg)
 
+There is a 40 pin programmer on board for supporting most of the PIC's. The board itself uses PIC18F2550
+(see [datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/39632e.pdf)) for communication
+with software.
+
+PIC16F877A (see [datasheet](http://ww1.microchip.com/downloads/en/devicedoc/39582b.pdf)) is a 40-pin microcontroller 
+which is used frequently on PIC domain. (It has 256 bytes of EEPROM, 2 PWM 10-bit, ICD etc.)
+This features of 877A was the main reason for my decision to use this microcontroller in this project.
+
+![pic16f877a](https://user-images.githubusercontent.com/24392180/54274848-db1a0200-4591-11e9-8033-a9964c01a569.jpg)
