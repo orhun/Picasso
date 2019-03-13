@@ -20,3 +20,7 @@ Therefore, idea behind this project is creating a development board/prototyping 
 serial, parallel and USB techniques. 
 (see [Brenner](http://www.sprut.de/electronic/pic/brenner/index.htm))
 _Sprut Brenner_ is a preferred and common programmer board for universal PIC applications.
+
+_Brenner board that I was using:_
+![sprut brenner](https://user-images.githubusercontent.com/24392180/54274226-33e89b00-4590-11e9-942c-0223aaa060f1.jpg)
+
