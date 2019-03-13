@@ -1,7 +1,7 @@
 # Picasso
 PIC16F877A based 5V/20MHz development board and PIC programmer
 
-**[!] This is a discontinued project in 2016.**
+**[!] This is a discontinued project. [2016]**
 _Documents are published in order to help people that want to create similar projects or think of new ideas._
 
 # Idea
@@ -50,7 +50,7 @@ it __PICasso.__
 
 ![v0 1](https://user-images.githubusercontent.com/24392180/54276912-2387ee80-4597-11e9-9c4b-ef8fdcd504b9.jpg)
 
-Purpose of this version is seeing how easily can I use 877A's pins with this board.
+Purpose of this version is seeing how easily can I use 877A's pins with the board above.
 
 * PIC16F877A
 * 7805
