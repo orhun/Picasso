@@ -36,7 +36,7 @@ This features of 877A was the main reason for my decision to use this microcontr
 
 ![pic16f877a](https://raw.githubusercontent.com/KeyLo99/Picasso/master/img/pic16f877a.jpg)
 
-In order to load your program to PIC (which is called _flashing hex file_) you have use a software called _US-Burn_.
+In order to load your program to PIC (which is called _flashing hex file_) you have to use a software called _US-Burn_.
 US-Burn also supports various features such as flashing bootloaders, changing PIC configurations and disassembler.
 It has Windows and Linux support.
 
