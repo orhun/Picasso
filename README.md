@@ -1,4 +1,4 @@
-# Picasso <a href="https://github.com/KeyLo99/Picasso/releases"><img src="https://img.shields.io/github/release/KeyLo99/Picasso.svg?style=flat-square"/></a>
+# Picasso <a href="https://github.com/orhun/Picasso/releases"><img src="https://img.shields.io/github/release/orhun/Picasso.svg?style=flat-square"/></a>
 PIC16F877A based 5V/20MHz development board and PIC programmer
 
 **[!] This is a discontinued project. [2016]**
@@ -24,7 +24,7 @@ _Sprut Brenner_ is a preferred and common programmer board for universal PIC app
 
 _Brenner board that I was using:_
 
-![sprut brenner](https://raw.githubusercontent.com/KeyLo99/Picasso/master/img/brenner.jpg)
+![sprut brenner](https://raw.githubusercontent.com/orhun/Picasso/master/img/brenner.jpg)
 
 There is a 40 pin programmer on board for supporting most of the PIC's. The board itself uses PIC18F2550
 (see [datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/39632e.pdf)) for communication
@@ -34,14 +34,14 @@ PIC16F877A (see [datasheet](http://ww1.microchip.com/downloads/en/devicedoc/3958
 which is used frequently on PIC domain. (It has 256 bytes of EEPROM, 2 PWM 10-bit, ICD etc.)
 This features of 877A was the main reason for my decision to use this microcontroller in this project.
 
-![pic16f877a](https://raw.githubusercontent.com/KeyLo99/Picasso/master/img/pic16f877a.jpg)
+![pic16f877a](https://raw.githubusercontent.com/orhun/Picasso/master/img/pic16f877a.jpg)
 
 In order to load your program to PIC (which is called _flashing hex file_) you have to use a software called _US-Burn_.
 US-Burn also supports various features such as flashing bootloaders, changing PIC configurations and disassembler.
 It has Windows and Linux support.
 
-![usburn](https://raw.githubusercontent.com/KeyLo99/Picasso/master/img/usburn.jpg)
-[Get US-Burn here.](https://github.com/KeyLo99/Picasso/raw/master/usburn/usburn.zip)
+![usburn](https://raw.githubusercontent.com/orhun/Picasso/master/img/usburn.jpg)
+[Get US-Burn here.](https://github.com/orhun/Picasso/raw/master/usburn/usburn.zip)
 
 Basically if we replace the 40 pin programmer with 877A (or another PIC), put pins in order (like Arduino) and 
 write a custom IDE with flashing features, we will have a 5V - 20MHz 877A-based development card. I'd like to call
@@ -49,7 +49,7 @@ it __PICasso.__
 
 # v0.1
 
-![v0.1](https://raw.githubusercontent.com/KeyLo99/Picasso/master/img/v0.1.jpg)
+![v0.1](https://raw.githubusercontent.com/orhun/Picasso/master/img/v0.1.jpg)
 
 Purpose of this version is seeing how easily can I use 877A's pins with the board above.
 
@@ -64,7 +64,7 @@ Purpose of this version is seeing how easily can I use 877A's pins with the boar
 
 # v0.2
 
-![v0.2](https://raw.githubusercontent.com/KeyLo99/Picasso/master/img/v0.2.jpg)
+![v0.2](https://raw.githubusercontent.com/orhun/Picasso/master/img/v0.2.jpg)
 
 This version can be considered as the outline of the Picasso project's main idea. 
 18F2550 and 16F877A used together in this board with custom pins next to 877A due to testing our thesis.
@@ -75,10 +75,10 @@ Here is the steps that followed for preparing this board:
 
 * PCB
 
-![picasso_pcb_v0.2](https://raw.githubusercontent.com/KeyLo99/Picasso/master/pcb/v0.2/picasso_pcb.jpg)
+![picasso_pcb_v0.2](https://raw.githubusercontent.com/orhun/Picasso/master/pcb/v0.2/picasso_pcb.jpg)
 
-[EAGLE Project](https://github.com/KeyLo99/Picasso/blob/master/pcb/v0.2/picasso.brd) | 
-[PCB](https://github.com/KeyLo99/Picasso/blob/master/pcb/v0.2/picasso_pcb.pdf) 
+[EAGLE Project](https://github.com/orhun/Picasso/blob/master/pcb/v0.2/picasso.brd) | 
+[PCB](https://github.com/orhun/Picasso/blob/master/pcb/v0.2/picasso_pcb.pdf) 
 
 * Circuit Part List
 
@@ -121,48 +121,48 @@ SV1      ICSP                  BL 1X10G 2,54
 X2       USB-B-H               USB BW
 JP1      Jumper                Jumper 2,54 RT
 ```
-[Brenner Circuit](https://github.com/KeyLo99/Picasso/blob/master/img/b8p5.jpg) and 
-[b8p5_partlist.txt](https://github.com/KeyLo99/Picasso/blob/master/doc/b8p5_partlist.txt) might be helpful.
+[Brenner Circuit](https://github.com/orhun/Picasso/blob/master/img/b8p5.jpg) and 
+[b8p5_partlist.txt](https://github.com/orhun/Picasso/blob/master/doc/b8p5_partlist.txt) might be helpful.
 
 * After preparing the circuit, there is not much left to do. We have to flash the bootloader and firmware to 
 PIC18F2550 to use the board with US-Burn software.  
 **To achieve this, a PIC programmer is required due to the need of bootloader flashing.**  
 
-* Flash the [boot_0_20mhz.hex](https://github.com/KeyLo99/Picasso/blob/master/bootloader/boot_0_20mhz.hex) to the 18F2550 
+* Flash the [boot_0_20mhz.hex](https://github.com/orhun/Picasso/blob/master/bootloader/boot_0_20mhz.hex) to the 18F2550 
 after US-Burn detected the PIC.
   
 * After flashing the bootloader, put 18F2550 in your circuit and connect it's USB to your computer. Make sure everything is working with USB and circuit. (_Check if any smoke coming out_)  
 
 * Start the US-Burn software. It will redirect you to firmware update section if everything goes right for you.
 
-![firmware_update](https://raw.githubusercontent.com/KeyLo99/Picasso/master/img/firmware_update.jpg)
+![firmware_update](https://raw.githubusercontent.com/orhun/Picasso/master/img/firmware_update.jpg)
 
-* Select the [b8_fw16.hex](https://github.com/KeyLo99/Picasso/blob/master/firmware/b8_fw16.hex) and upload new firmware.
+* Select the [b8_fw16.hex](https://github.com/orhun/Picasso/blob/master/firmware/b8_fw16.hex) and upload new firmware.
 
 * Reset the programmer. In this point you might have to make some calibrations. 
-So see [b8_calibration_en.pdf](https://github.com/KeyLo99/Picasso/blob/master/doc/b8_calibration_en.pdf)
+So see [b8_calibration_en.pdf](https://github.com/orhun/Picasso/blob/master/doc/b8_calibration_en.pdf)
 
 * Finally put PIC16F877A in place and you are ready to go. You can flash your program (hex) into PIC and use it's pins
 easily just by connecting the USB.
 
 # v0.5
 
-![v0.5](https://raw.githubusercontent.com/KeyLo99/Picasso/master/img/v0.5_1.jpg)
+![v0.5](https://raw.githubusercontent.com/orhun/Picasso/master/img/v0.5_1.jpg)
 
 Some circuit updates were made with this version.
 * PIC16F877A placed horizontally.
 * All pins gathered in one place. Required labels added.
 
-![v0.5_pins](https://raw.githubusercontent.com/KeyLo99/Picasso/master/img/v0.5_3.jpg)
+![v0.5_pins](https://raw.githubusercontent.com/orhun/Picasso/master/img/v0.5_3.jpg)
 
-![v0.5_2](https://raw.githubusercontent.com/KeyLo99/Picasso/master/img/v0.5_2.jpg)
+![v0.5_2](https://raw.githubusercontent.com/orhun/Picasso/master/img/v0.5_2.jpg)
 
 * PCB
 
-![picasso_pcb_v0.5](https://raw.githubusercontent.com/KeyLo99/Picasso/master/pcb/v0.5/picasso_pcb.jpg)
+![picasso_pcb_v0.5](https://raw.githubusercontent.com/orhun/Picasso/master/pcb/v0.5/picasso_pcb.jpg)
 
-[EAGLE Project](https://github.com/KeyLo99/Picasso/blob/master/pcb/v0.5/picasso.brd) | 
-[PCB](https://github.com/KeyLo99/Picasso/blob/master/pcb/v0.5/picasso_pcb.pdf) 
+[EAGLE Project](https://github.com/orhun/Picasso/blob/master/pcb/v0.5/picasso.brd) | 
+[PCB](https://github.com/orhun/Picasso/blob/master/pcb/v0.5/picasso_pcb.pdf) 
 
 * Circuit Part List
 
@@ -174,7 +174,7 @@ _Same installation/configuration procedure with v0.2_
 
 # v1.0
 
-![v1.0_1](https://raw.githubusercontent.com/KeyLo99/Picasso/master/img/v1.0_1.jpg)
+![v1.0_1](https://raw.githubusercontent.com/orhun/Picasso/master/img/v1.0_1.jpg)
 
 Circuit board improved and new featured added with this version. 
 
@@ -182,14 +182,14 @@ Circuit board improved and new featured added with this version.
 * 5V input added to circuit with 7805 regulator.
 * Some component's including LEDs position changed.
 
-![v1.0_2](https://raw.githubusercontent.com/KeyLo99/Picasso/master/img/v1.0_2.jpg)
+![v1.0_2](https://raw.githubusercontent.com/orhun/Picasso/master/img/v1.0_2.jpg)
 
 * PCB
 
-![picasso_pcb_v1.0](https://raw.githubusercontent.com/KeyLo99/Picasso/master/pcb/v1.0/picasso_pcb.jpg)
+![picasso_pcb_v1.0](https://raw.githubusercontent.com/orhun/Picasso/master/pcb/v1.0/picasso_pcb.jpg)
 
-[EAGLE Project](https://github.com/KeyLo99/Picasso/blob/master/pcb/v1.0/picasso.brd) | 
-[PCB](https://github.com/KeyLo99/Picasso/blob/master/pcb/v1.0/picasso_pcb.pdf) 
+[EAGLE Project](https://github.com/orhun/Picasso/blob/master/pcb/v1.0/picasso.brd) | 
+[PCB](https://github.com/orhun/Picasso/blob/master/pcb/v1.0/picasso_pcb.pdf) 
 
 _Components and instructions are same with v0.5_
 
@@ -208,5 +208,5 @@ GNU General Public License v3. (see [gpl](https://www.gnu.org/licenses/gpl.txt))
 
 ## Credit
 
-Copyright (C) 2019 by KeyLo99 https://www.github.com/KeyLo99
+Copyright (C) 2019 by orhun https://www.github.com/orhun
 
